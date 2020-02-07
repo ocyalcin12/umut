@@ -27,9 +27,9 @@ const documentTypesRouter = require('./routes/documentTypes');
 const usersRouter = require('./routes/users');
 
 app.use('/companies', companiesRouter);
-app.use('/', documentsRouter);
 app.use('/documentTypes', documentTypesRouter);
 app.use('/users', usersRouter);
+app.use('/', documentsRouter);
 
 //Serve static assets if in production
 if (process.env.NODE_ENV === production) {
