@@ -11,7 +11,6 @@ import DocumentTypes from './components/DocumentTypes';
 import EditCompany from './components/EditCompany';
 import AddDocument from './components/AddDocument';
 import EditDocument from './components/EditDocument';
-import Test from './components/Test';
 
 class App extends React.Component {
   render() {
